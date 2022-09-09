@@ -1,7 +1,9 @@
 @extends('layouts.main')
 
 @section('main-content')
-    <section class="train-container">
+<div class="title">
+    <h1>Trains Leaving Today</h1>
+    <div class="train-container">
         <div class="container">
             @forelse ($train as $train )
                 <div class="card">
@@ -26,5 +28,6 @@
                 <h3>NON CI SONO FILM</h3>
             @endforelse
         </div>
-    </section>
+    </div>
+</div>
 @endsection
