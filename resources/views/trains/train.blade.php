@@ -10,7 +10,17 @@
                     <pre> Departure Time: {{ $train->departure_time }} - Arrival Time: {{ $train->arrival_time }}</pre>
                     <pre> Code: {{ $train->train_code }}</pre>
                     <pre> Number Carriages:{{ $train->number_carriages }}</pre>
-                    <pre> In Time:{{ $train->in_time }} - Is Deleted: {{ $train->is_deleted }} </pre>
+                    @if ($train->in_time == 1)
+                        <pre>In Time: Yes</pre>
+                    @else
+                        <pre>In Time: No</pre>
+                    @endif
+
+                    @if ($train->is_deleted == 1)
+                        <pre>Is Deleted: Yes</pre>
+                    @else
+                        <pre>Is Deleted: No</pre>
+                    @endif
                 </div>
             @empty
                 <h3>NON CI SONO FILM</h3>
