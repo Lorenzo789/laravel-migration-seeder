@@ -15,7 +15,7 @@ class TrainTableSeeder extends Seeder
         $trains = 
         [
             [
-                'company' => 'trenitalia',
+                'company' => 'Trenitalia',
                 'departure_station' => 'Turin',
                 'arrivals_station' => 'Rome',
                 'departure_time' => '8:00',
@@ -26,7 +26,7 @@ class TrainTableSeeder extends Seeder
                 'is_deleted' => false,
             ],
             [
-                'company' => 'trenitalia',
+                'company' => 'Trenitalia',
                 'departure_station' => 'Rome',
                 'arrivals_station' => 'Turin',
                 'departure_time' => '12:00',
@@ -38,7 +38,7 @@ class TrainTableSeeder extends Seeder
 
             ],
             [
-                'company' => 'italo',
+                'company' => 'Italo',
                 'departure_station' => 'Naples',
                 'arrivals_station' => 'Milan',
                 'departure_time' => '10:00',
@@ -50,7 +50,7 @@ class TrainTableSeeder extends Seeder
 
             ],
             [
-                'company' => 'trenitalia',
+                'company' => 'Trenitalia',
                 'departure_station' => 'Venice',
                 'arrivals_station' => 'Genoa',
                 'departure_time' => '5:00',
@@ -62,7 +62,7 @@ class TrainTableSeeder extends Seeder
 
             ],
             [
-                'company' => 'trenitalia',
+                'company' => 'Trenitalia',
                 'departure_station' => 'Leghorn',
                 'arrivals_station' => 'Florence',
                 'departure_time' => '7:00',
@@ -74,7 +74,7 @@ class TrainTableSeeder extends Seeder
 
             ],
             [
-                'company' => 'frecciarossa',
+                'company' => 'Frecciarossa',
                 'departure_station' => 'Rome',
                 'arrivals_station' => 'Berlin',
                 'departure_time' => '9:30',
