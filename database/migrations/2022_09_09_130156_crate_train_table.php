@@ -24,6 +24,7 @@ class CrateTrainTable extends Migration
             $table->tinyInteger('number_carriages');
             $table->boolean('in_time');
             $table->boolean('is_deleted');
+            $table->timestamps();
         });
     }
 
